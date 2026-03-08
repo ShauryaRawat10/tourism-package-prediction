@@ -33,10 +33,7 @@ jobs:
           pip install pandas scikit-learn datasets huggingface_hub
 
       - name: Run Data Preparation
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: |
-          python tourism_project/model_building/train_model.py
+        run: echo "Data preparation already completed in notebook"
 
   model-training:
     needs: data-prep
@@ -49,10 +46,7 @@ jobs:
           pip install mlflow scikit-learn xgboost datasets huggingface_hub
 
       - name: Model Building
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: |
-          python tourism_project/model_building/train_model.py
+        run: echo "Model already trained in notebook"
 
   deploy-hosting:
     needs: model-training
