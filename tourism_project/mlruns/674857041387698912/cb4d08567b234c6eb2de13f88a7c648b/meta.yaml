@@ -1,0 +1,14 @@
+artifact_uri: file:///content/tourism_project/mlruns/674857041387698912/cb4d08567b234c6eb2de13f88a7c648b/artifacts
+end_time: 1772959236511
+entry_point_name: ''
+experiment_id: '674857041387698912'
+lifecycle_stage: active
+run_id: cb4d08567b234c6eb2de13f88a7c648b
+run_name: RandomForest
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772959140540
+status: 3
+tags: []
+user_id: root

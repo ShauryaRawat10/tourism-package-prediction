@@ -1,0 +1,7 @@
+artifact_location: file:///content/tourism_project/mlruns/674857041387698912
+creation_time: 1772959127545
+experiment_id: '674857041387698912'
+last_update_time: 1772959127545
+lifecycle_stage: active
+name: tourism_package_prediction
+workspace: default
